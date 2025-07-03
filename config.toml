@@ -1,0 +1,24 @@
+baseURL = "https://noorulwadoodkhan.com/"
+languageCode = "en-us"
+title = "Noor ul Wadood Khan"
+theme = "PaperMod"
+
+[params]
+  author = "Noor Khan"
+  description = "Personal Blog on Ideas, Thoughts & Work"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+
